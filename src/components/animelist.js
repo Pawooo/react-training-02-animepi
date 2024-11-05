@@ -4,6 +4,10 @@ const AnimeList = () => {
     const [error, setError] = useState(null);
     const [query, setQuery] = useState("Naruto"); 
 
+    // const getStarWarsPerson = async () => {
+    //     const res = await axios.get("https://swapi.dev/api/people/1")
+    // }
+
     useEffect(() => {
         const fetchAnime = async () => {
             try {
