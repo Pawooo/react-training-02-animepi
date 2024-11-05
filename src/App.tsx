@@ -1,4 +1,4 @@
-import { useState, Routes, Route } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import AllAnime from './pages/AllAnime'
 
 function App() {
